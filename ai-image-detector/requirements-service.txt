@@ -1,0 +1,5 @@
+# Extra deps to run the HTTP service wrapper (server.py), on top of requirements.txt.
+# Start it with:  python -m uvicorn server:app --host 127.0.0.1 --port 8200
+fastapi
+uvicorn
+python-multipart

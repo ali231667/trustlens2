@@ -1,0 +1,40 @@
+# ---- Python ----
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# ---- Node / frontend ----
+node_modules/
+dist/
+build/
+
+# ---- Secrets (never commit) ----
+.env
+.env.local
+*.local.env
+# keep .env.example tracked
+!.env.example
+cookies.txt
+*cookies*.txt
+
+# ---- Runtime data / caches / model downloads ----
+data/media/
+data/models/
+*.sqlite
+transcriber.db
+cache/
+
+# ---- Test / build caches ----
+.pytest_cache/
+colab_bundle.zip
+
+# Duplicate of video-to-text-transcriber pasted in with its own .git; ignore it.
+/video-to-text transcriber/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+*.log
